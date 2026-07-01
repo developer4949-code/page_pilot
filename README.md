@@ -1,3 +1,11 @@
+---
+title: Page Pilot
+emoji: 🚀
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+pinned: false
+---
 # 🚀 PagePilot: Your Premium AI RAG Knowledge Assistant
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
