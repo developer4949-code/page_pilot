@@ -27,7 +27,6 @@ Designed with **premium aesthetics**, dark-mode responsive styling, dynamic chat
 
 <video src="https://github.com/developer4949-code/page_pilot/raw/main/assets/page_pilot_demo.mp4" autoplay loop muted playsinline width="100%"></video>
 
-*(Note: If the video player does not load above, you can [download or view the raw demo file directly](./assets/page_pilot_demo.mp4))*
 
 ---
 
