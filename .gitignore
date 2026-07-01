@@ -136,5 +136,4 @@ venv.bak/
 # Local custom folders for PagePilot
 temp/
 logs/
-vectorstore/
 *.db
