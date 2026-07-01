@@ -1,0 +1,99 @@
+/* PagePilot Premium CSS Styling */
+
+/* Main Containers */
+.block-container {
+    padding-top: 2rem !important;
+    padding-bottom: 8rem !important;
+    max-width: 850px !important;
+}
+
+/* Hide default streamlit elements */
+#MainMenu { visibility: hidden; }
+footer { visibility: hidden; }
+
+
+/* Custom Sidebar styling */
+section[data-testid="stSidebar"] {
+    background-color: #0f1115 !important;
+    border-right: 1px solid #1f232d !important;
+    padding: 1rem 0.5rem !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #2f3441;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #3f4556;
+}
+
+/* Config display cards */
+.config-card {
+    background: rgba(30, 41, 59, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+}
+
+.config-label {
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+.config-val {
+    color: #e2e8f0;
+    font-family: monospace;
+}
+
+/* Interactive custom elements */
+.conversation-item {
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 4px;
+    border: 1px solid transparent;
+}
+.conversation-item:hover {
+    background-color: #1e293b;
+    border-color: #334155;
+}
+.conversation-item.active {
+    background-color: #1e293b;
+    border-color: #3b82f6;
+}
+
+/* Citations display style */
+.citation-container {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    background-color: #1e293b;
+    border-left: 3px solid #3b82f6;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-top: 6px;
+}
+.citation-source {
+    font-weight: 600;
+    color: #3b82f6;
+}
+.citation-chunk {
+    font-family: monospace;
+    background: #0f172a;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 4px;
+    display: block;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
