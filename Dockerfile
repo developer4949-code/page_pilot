@@ -32,4 +32,4 @@ USER user
 # Dynamic Port configuration handled by Render/HF Spaces
 
 # Launch the Streamlit application using the shell form to expand PORT variable from host
-CMD streamlit run app.py --server.port=${PORT:-8501} --server.address=0.0.0.0
+CMD streamlit run app.py --server.port=${PORT:-7860} --server.address=0.0.0.0
