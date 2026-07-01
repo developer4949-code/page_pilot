@@ -20,6 +20,17 @@ Designed with **premium aesthetics**, dark-mode responsive styling, dynamic chat
 
 ---
 
+## 🚀 Try it out live!
+[**Page Pilot on HuggingFace Spaces**](https://huggingface.co/spaces/Developer49/page-pilot)
+
+## 🎥 Demo Video
+
+https://github.com/Developer49/page-pilot/raw/main/assets/page_pilot_demo.mp4
+
+*(Note: If the video player does not load above, you can [download or view the raw demo file directly](./assets/page_pilot_demo.mp4))*
+
+---
+
 ## 🌟 Key Features
 
 *   **📁 Multi-Document Upload & Ingestion**: Streamlined sidebar workflow allowing concurrent ingestion of multiple PDF files (size limits: 10MB per file). Includes automated SHA256 integrity validation to skip duplicates.
