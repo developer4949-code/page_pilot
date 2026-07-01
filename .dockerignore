@@ -11,6 +11,5 @@ __pycache__/
 .env
 temp/
 logs/
-vectorstore/
 README.md
 .env.example
