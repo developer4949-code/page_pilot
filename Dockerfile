@@ -24,7 +24,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application files
 COPY . .
 
-# Dynamic Port configuration handled by Render
+# Hugging Face Spaces require running as a non-root user (UID 1000)
+RUN useradd -m -u 1000 user && \
+    chown -R user:user /app
+USER user
+
+# Dynamic Port configuration handled by Render/HF Spaces
 
 # Launch the Streamlit application using the shell form to expand PORT variable from host
 CMD streamlit run app.py --server.port=${PORT:-8501} --server.address=0.0.0.0
