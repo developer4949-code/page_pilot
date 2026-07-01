@@ -25,13 +25,18 @@ Designed with **premium aesthetics**, dark-mode responsive styling, dynamic chat
 
 ## 🎥 Demo Video
 
-## 🎥 Demo Video
+<p align="center">
+  <img
+    src="https://github.com/developer4949-code/page_pilot/raw/main/assets/page_pilot_demo.gif"
+    alt="PagePilot Demo"
+    width="1000">
+</p>
 
-![Demo GIF](https://github.com/developer4949-code/page_pilot/raw/main/assets/page_pilot_demo.gif)
-
-[Watch the full video on YouTube](https://youtu.be/1XcvRbcI-tU)
-
-
+<p align="center">
+  <a href="https://youtu.be/1XcvRbcI-tU">
+    ▶️ Watch the Full Demo on YouTube
+  </a>
+</p>
 ---
 
 ## 🌟 Key Features
