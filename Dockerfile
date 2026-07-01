@@ -24,11 +24,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the rest of the application files
 COPY . .
 
-# Expose Streamlit's default port
+# Expose Streamlit's default port (used as fallback)
 EXPOSE 8501
 
-# Streamlit Healthcheck command
-HEALTHCHECK CMD curl --fail http://localhost:8501/_stcore/health || exit 1
-
-# Launch the Streamlit application
-ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+# Launch the Streamlit application using the shell form to expand PORT variable from host
+CMD streamlit run app.py --server.port=${PORT:-8501} --server.address=0.0.0.0
