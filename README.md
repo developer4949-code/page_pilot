@@ -27,7 +27,7 @@ Designed with **premium aesthetics**, dark-mode responsive styling, dynamic chat
 
 <p align="center">
   <img
-    src="https://github.com/developer4949-code/page_pilot/raw/main/assets/page_pilot_demo (1).gif"
+    src="https://github.com/developer4949-code/page_pilot/raw/main/assets/page_pilot_demo(1).gif"
     alt="PagePilot Demo"
     width="1000">
 </p>
